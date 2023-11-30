@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Australian Training Company</title>
+    <link rel="stylesheet" href="/ATC_website_project/styles/default_style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><a href="/ATC_website_project/index.html">ATC's logo</a></li>
+                <li><a href="/ATC_website_project/index.html" title="Home">Home</a></li>
+                <li><a href="course_info.html" title="Courses">Courses</a></li>
+                <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="courses">
+        <script src="/ATC_website_project/scripts/course_info.js"></script>
+        <button onclick="switchInfo('networking')">
+            <img src="/ATC_website_project/images/course_info/ethernet_switch_black_and_white.jpg" alt="black and white ethernet switch">
+            Networking Course
+        </button>
+        <button onclick="switchInfo('hardware')">
+            <img src="/ATC_website_project/images/course_info/motherboard.jpg" alt="a motherboard">
+            Hardware Course 
+        </button>
+        <button onclick="switchInfo('software')">
+            <img src="/ATC_website_project/images/course_info/coding.jpg" alt="computer code">
+            Software Course
+        </button>
+    </section>
+    <div class="subheading">
+        <h2>Course Structure</h2>
+    </div>
+    <div id="infoToSwitch" class="courseinformation">Click the above buttons to find out more info!</div>
+    <div class="subheading">
+        <h2>Enrolment details</h2>
+    </div>
+    <div class="courseinformation">
+        <p>For information on enrolment details, please navigate to "Contact us" at the top of the page and submit a form.</p>
+    </div>
+</body>
+</html>

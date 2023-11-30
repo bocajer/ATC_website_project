@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Australian Training Company</title>
+    <link rel="stylesheet" href="/ATC_website_project/styles/default_style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><a href="/ATC_website_project/index.html">ATC's logo</a></li>
+                <li><a href="/ATC_website_project/index.html" title="Home">Home</a></li>
+                <li><a href="course_info.html" title="Courses">Courses</a></li>
+                <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="subheading">
+        <h2>Contact us:</h2>
+    </div>
+    <table>
+        <tr>
+            <th>Phone:</th>
+            <th>02 9704 1500</th>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <th>training@austrg.com.au</th>
+        </tr>
+    </table>
+    <div class="subheading">
+        <h2>Submit an inquiry:</h2>
+    </div>
+    <script src="/ATC_website_project/scripts/contact_us.js"></script>
+    <form onsubmit="formSubmit()">
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="phone">Phone number:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="inquiry">Inquiry:</label><br>
+        <input type="text" id="inquiry" name="inquiry" class="inquiry"><br>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <footer class="footer_banner_image">
+    </footer>
+</body>
+</html>
